@@ -19,9 +19,8 @@ def has_gacha(a):
         tp = random.random()
         if tp < 0.5:
             print(epoch, "Guar!", gacha, num, a)
-            return True
-        else:
             is_guaranteed = True
+            return True
 
     num += 1
     return False
